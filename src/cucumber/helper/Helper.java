@@ -89,7 +89,10 @@ public class Helper
 		//the command below maximizes the browser when launched
 		driver.manage().window().maximize();
 	}
-	
+	public static void acceptAlert() throws Exception
+	{
+	driver.switchTo().alert().accept();
+	}
 	
 	/*#####################################################
 	Uses - This method closes any browser open by selenium
