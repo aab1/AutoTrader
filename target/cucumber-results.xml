@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="63.40711">
+<testcase classname="Search any Car" name="Search for Audi cars on homepage search box" time="29.391515">
+<system-out><![CDATA[Given I navigate to Autotrader homepage.....................................passed
+And autotrader logo is displayed............................................passed
+When I enter postcode as "OL9 8LE"..........................................passed
+And a "Within 30 miles" is selected from postcode...........................passed
+And "Audi" is selected from make dropdown...................................passed
+And "A3" is selected from model dropdown....................................passed
+And "5500" is selected from min price dropdown..............................passed
+And "22500" is selected from max price dropdown.............................passed
+And I click on search button................................................passed
+Then the search result for "Audi" is displayed..............................passed
+And all the cars displayed are "Audi".......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search any Car" name="Search for Audi cars on homepage search box 2" time="34.015595">
+<system-out><![CDATA[Given I navigate to Autotrader homepage.....................................passed
+And autotrader logo is displayed............................................passed
+When I enter postcode as "M40 2EB"..........................................passed
+And a "Within 10 miles" is selected from postcode...........................passed
+And "BMW" is selected from make dropdown....................................passed
+And "1 SERIES" is selected from model dropdown..............................passed
+And "5500" is selected from min price dropdown..............................passed
+And "16000" is selected from max price dropdown.............................passed
+And I click on search button................................................passed
+Then the search result for "BMW" is displayed...............................passed
+And all the cars displayed are "BMW"........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

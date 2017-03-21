@@ -1,0 +1,50 @@
+Feature: Search any Car
+  In order to view different cars for sale
+  As an autotrader customer
+  I want the ability to search for a car of my choice
+
+  #@ignore
+  Scenario Outline: Search for Audi cars on homepage search box [90m# features/SearchAnyCar.feature:6[0m
+    [36mGiven [0m[36mI navigate to Autotrader homepage[0m
+    [36mAnd [0m[36mautotrader logo is displayed[0m
+    [36mWhen [0m[36mI enter postcode as "<postcode>"[0m
+    [36mAnd [0m[36ma "<distance>" is selected from postcode[0m
+    [36mAnd [0m[36m"<carMake>" is selected from make dropdown[0m
+    [36mAnd [0m[36m"<model>" is selected from model dropdown[0m
+    [36mAnd [0m[36m"<minPrice>" is selected from min price dropdown[0m
+    [36mAnd [0m[36m"<maxPrice>" is selected from max price dropdown[0m
+    [36mAnd [0m[36mI click on search button[0m
+    [36mThen [0m[36mthe search result for "<carMake>" is displayed[0m
+    [36mAnd [0m[36mall the cars displayed are "<carMake>"[0m
+
+    Scenarios: 
+
+  Scenario Outline: Search for Audi cars on homepage search box [90m# features/SearchAnyCar.feature:20[0m
+    [32mGiven [0m[32mI navigate to Autotrader homepage[0m                     [90m# SearchSteps.i_navigate_to_Autotrader_homepage()[0m
+    [32mAnd [0m[32mautotrader logo is displayed[0m                            [90m# SearchSteps.autotrader_logo_is_displayed()[0m
+    [32mWhen [0m[32mI enter postcode as "[0m[32m[1mOL9 8LE[0m[32m"[0m                          [90m# SearchAnyCarSteps.i_enter_postcode_as(String)[0m
+    [32mAnd [0m[32ma "[0m[32m[1mWithin 30 miles[0m[32m" is selected from postcode[0m           [90m# SearchAnyCarSteps.a_is_selected_from_postcode(String)[0m
+    [32mAnd [0m[32m"[0m[32m[1mAudi[0m[32m" is selected from make dropdown[0m                   [90m# SearchAnyCarSteps.is_selected_from_make_dropdown(String)[0m
+    [32mAnd [0m[32m"[0m[32m[1mA3[0m[32m" is selected from model dropdown[0m                    [90m# SearchAnyCarSteps.is_selected_from_model_dropdown(String)[0m
+    [32mAnd [0m[32m"[0m[32m[1m5500[0m[32m" is selected from min price dropdown[0m              [90m# SearchAnyCarSteps.is_selected_from_min_price_dropdown(String)[0m
+    [32mAnd [0m[32m"[0m[32m[1m22500[0m[32m" is selected from max price dropdown[0m             [90m# SearchAnyCarSteps.is_selected_from_max_price_dropdown(String)[0m
+    [32mAnd [0m[32mI click on search button[0m                                [90m# SearchSteps.i_click_on_search_button()[0m
+    [32mThen [0m[32mthe search result for "[0m[32m[1mAudi[0m[32m" is displayed[0m              [90m# SearchAnyCarSteps.the_search_result_for_is_displayed(String)[0m
+    [32mAnd [0m[32mall the cars displayed are "[0m[32m[1mAudi[0m[32m"[0m                       [90m# SearchAnyCarSteps.all_the_cars_displayed_are(String)[0m
+
+  Scenario Outline: Search for Audi cars on homepage search box [90m# features/SearchAnyCar.feature:21[0m
+    [32mGiven [0m[32mI navigate to Autotrader homepage[0m                     [90m# SearchSteps.i_navigate_to_Autotrader_homepage()[0m
+    [32mAnd [0m[32mautotrader logo is displayed[0m                            [90m# SearchSteps.autotrader_logo_is_displayed()[0m
+    [32mWhen [0m[32mI enter postcode as "[0m[32m[1mM40 2EB[0m[32m"[0m                          [90m# SearchAnyCarSteps.i_enter_postcode_as(String)[0m
+    [32mAnd [0m[32ma "[0m[32m[1mWithin 10 miles[0m[32m" is selected from postcode[0m           [90m# SearchAnyCarSteps.a_is_selected_from_postcode(String)[0m
+    [32mAnd [0m[32m"[0m[32m[1mBMW[0m[32m" is selected from make dropdown[0m                    [90m# SearchAnyCarSteps.is_selected_from_make_dropdown(String)[0m
+    [32mAnd [0m[32m"[0m[32m[1m1 SERIES[0m[32m" is selected from model dropdown[0m              [90m# SearchAnyCarSteps.is_selected_from_model_dropdown(String)[0m
+    [32mAnd [0m[32m"[0m[32m[1m5500[0m[32m" is selected from min price dropdown[0m              [90m# SearchAnyCarSteps.is_selected_from_min_price_dropdown(String)[0m
+    [32mAnd [0m[32m"[0m[32m[1m16000[0m[32m" is selected from max price dropdown[0m             [90m# SearchAnyCarSteps.is_selected_from_max_price_dropdown(String)[0m
+    [32mAnd [0m[32mI click on search button[0m                                [90m# SearchSteps.i_click_on_search_button()[0m
+    [32mThen [0m[32mthe search result for "[0m[32m[1mBMW[0m[32m" is displayed[0m               [90m# SearchAnyCarSteps.the_search_result_for_is_displayed(String)[0m
+    [32mAnd [0m[32mall the cars displayed are "[0m[32m[1mBMW[0m[32m"[0m                        [90m# SearchAnyCarSteps.all_the_cars_displayed_are(String)[0m
+Feature: Search Cars
+  In order to view different cars for sale
+  As an autotrader customer
+  I want the ability to search for a car of my choice

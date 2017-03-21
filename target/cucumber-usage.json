@@ -1,0 +1,307 @@
+[
+  {
+    "source": "^\"([^\"]*)\" is selected from make dropdown$",
+    "steps": [
+      {
+        "name": "\"Audi\" is selected from make dropdown",
+        "aggregatedDurations": {
+          "average": 0.368043016,
+          "median": 0.368043016
+        },
+        "durations": [
+          {
+            "duration": 0.368043016,
+            "location": "features/SearchAnyCar.feature:11"
+          }
+        ]
+      },
+      {
+        "name": "\"BMW\" is selected from make dropdown",
+        "aggregatedDurations": {
+          "average": 0.362172939,
+          "median": 0.362172939
+        },
+        "durations": [
+          {
+            "duration": 0.362172939,
+            "location": "features/SearchAnyCar.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^autotrader logo is displayed$",
+    "steps": [
+      {
+        "name": "autotrader logo is displayed",
+        "aggregatedDurations": {
+          "average": 0.115454093,
+          "median": 0.115454093
+        },
+        "durations": [
+          {
+            "duration": 0.166707595,
+            "location": "features/SearchAnyCar.feature:8"
+          },
+          {
+            "duration": 0.064200591,
+            "location": "features/SearchAnyCar.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on search button$",
+    "steps": [
+      {
+        "name": "I click on search button",
+        "aggregatedDurations": {
+          "average": 7.919101127,
+          "median": 7.919101127
+        },
+        "durations": [
+          {
+            "duration": 0.091449576,
+            "location": "features/SearchAnyCar.feature:15"
+          },
+          {
+            "duration": 15.746752679,
+            "location": "features/SearchAnyCar.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^a \"([^\"]*)\" is selected from postcode$",
+    "steps": [
+      {
+        "name": "a \"Within 30 miles\" is selected from postcode",
+        "aggregatedDurations": {
+          "average": 0.546764463,
+          "median": 0.546764463
+        },
+        "durations": [
+          {
+            "duration": 0.546764463,
+            "location": "features/SearchAnyCar.feature:10"
+          }
+        ]
+      },
+      {
+        "name": "a \"Within 10 miles\" is selected from postcode",
+        "aggregatedDurations": {
+          "average": 0.595080646,
+          "median": 0.595080646
+        },
+        "durations": [
+          {
+            "duration": 0.595080646,
+            "location": "features/SearchAnyCar.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I navigate to Autotrader homepage$",
+    "steps": [
+      {
+        "name": "I navigate to Autotrader homepage",
+        "aggregatedDurations": {
+          "average": 5.216630997,
+          "median": 5.216630997
+        },
+        "durations": [
+          {
+            "duration": 4.192830995,
+            "location": "features/SearchAnyCar.feature:7"
+          },
+          {
+            "duration": 6.240430999,
+            "location": "features/SearchAnyCar.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^\"([^\"]*)\" is selected from max price dropdown$",
+    "steps": [
+      {
+        "name": "\"22500\" is selected from max price dropdown",
+        "aggregatedDurations": {
+          "average": 0.349939368,
+          "median": 0.349939368
+        },
+        "durations": [
+          {
+            "duration": 0.349939368,
+            "location": "features/SearchAnyCar.feature:14"
+          }
+        ]
+      },
+      {
+        "name": "\"16000\" is selected from max price dropdown",
+        "aggregatedDurations": {
+          "average": 0.340068349,
+          "median": 0.340068349
+        },
+        "durations": [
+          {
+            "duration": 0.340068349,
+            "location": "features/SearchAnyCar.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^\"([^\"]*)\" is selected from min price dropdown$",
+    "steps": [
+      {
+        "name": "\"5500\" is selected from min price dropdown",
+        "aggregatedDurations": {
+          "average": 0.333592903,
+          "median": 0.333592903
+        },
+        "durations": [
+          {
+            "duration": 0.348129535,
+            "location": "features/SearchAnyCar.feature:13"
+          },
+          {
+            "duration": 0.319056272,
+            "location": "features/SearchAnyCar.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter postcode as \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I enter postcode as \"OL9 8LE\"",
+        "aggregatedDurations": {
+          "average": 0.185000552,
+          "median": 0.185000552
+        },
+        "durations": [
+          {
+            "duration": 0.185000552,
+            "location": "features/SearchAnyCar.feature:9"
+          }
+        ]
+      },
+      {
+        "name": "I enter postcode as \"M40 2EB\"",
+        "aggregatedDurations": {
+          "average": 0.142186852,
+          "median": 0.142186852
+        },
+        "durations": [
+          {
+            "duration": 0.142186852,
+            "location": "features/SearchAnyCar.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the search result for \"([^\"]*)\" is displayed$",
+    "steps": [
+      {
+        "name": "the search result for \"Audi\" is displayed",
+        "aggregatedDurations": {
+          "average": 8.811769044,
+          "median": 8.811769044
+        },
+        "durations": [
+          {
+            "duration": 8.811769044,
+            "location": "features/SearchAnyCar.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "the search result for \"BMW\" is displayed",
+        "aggregatedDurations": {
+          "average": 0.03161486,
+          "median": 0.03161486
+        },
+        "durations": [
+          {
+            "duration": 0.03161486,
+            "location": "features/SearchAnyCar.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^\"([^\"]*)\" is selected from model dropdown$",
+    "steps": [
+      {
+        "name": "\"A3\" is selected from model dropdown",
+        "aggregatedDurations": {
+          "average": 0.321941892,
+          "median": 0.321941892
+        },
+        "durations": [
+          {
+            "duration": 0.321941892,
+            "location": "features/SearchAnyCar.feature:12"
+          }
+        ]
+      },
+      {
+        "name": "\"1 SERIES\" is selected from model dropdown",
+        "aggregatedDurations": {
+          "average": 0.323497033,
+          "median": 0.323497033
+        },
+        "durations": [
+          {
+            "duration": 0.323497033,
+            "location": "features/SearchAnyCar.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^all the cars displayed are \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "all the cars displayed are \"Audi\"",
+        "aggregatedDurations": {
+          "average": 0.4203016,
+          "median": 0.4203016
+        },
+        "durations": [
+          {
+            "duration": 0.4203016,
+            "location": "features/SearchAnyCar.feature:17"
+          }
+        ]
+      },
+      {
+        "name": "all the cars displayed are \"BMW\"",
+        "aggregatedDurations": {
+          "average": 0.581618091,
+          "median": 0.581618091
+        },
+        "durations": [
+          {
+            "duration": 0.581618091,
+            "location": "features/SearchAnyCar.feature:17"
+          }
+        ]
+      }
+    ]
+  }
+]

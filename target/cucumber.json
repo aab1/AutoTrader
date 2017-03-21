@@ -1,0 +1,492 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7653728195,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutoTraderHooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Search for Audi cars on homepage search box",
+        "description": "",
+        "id": "search-any-car;search-for-audi-cars-on-homepage-search-box;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 5934909128,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutoTraderHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4192830995,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to Autotrader homepage",
+            "match": {
+              "location": "SearchSteps.i_navigate_to_Autotrader_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 166707595,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "autotrader logo is displayed",
+            "match": {
+              "location": "SearchSteps.autotrader_logo_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 185000552,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter postcode as \"OL9 8LE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OL9 8LE",
+                  "offset": 21
+                }
+              ],
+              "location": "SearchAnyCarSteps.i_enter_postcode_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 546764463,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "a \"Within 30 miles\" is selected from postcode",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Within 30 miles",
+                  "offset": 3
+                }
+              ],
+              "location": "SearchAnyCarSteps.a_is_selected_from_postcode(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 368043016,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "\"Audi\" is selected from make dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Audi",
+                  "offset": 1
+                }
+              ],
+              "location": "SearchAnyCarSteps.is_selected_from_make_dropdown(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 321941892,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "\"A3\" is selected from model dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "A3",
+                  "offset": 1
+                }
+              ],
+              "location": "SearchAnyCarSteps.is_selected_from_model_dropdown(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 348129535,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "\"5500\" is selected from min price dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5500",
+                  "offset": 1
+                }
+              ],
+              "location": "SearchAnyCarSteps.is_selected_from_min_price_dropdown(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 349939368,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "\"22500\" is selected from max price dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "22500",
+                  "offset": 1
+                }
+              ],
+              "location": "SearchAnyCarSteps.is_selected_from_max_price_dropdown(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91449576,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on search button",
+            "match": {
+              "location": "SearchSteps.i_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8811769044,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the search result for \"Audi\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Audi",
+                  "offset": 23
+                }
+              ],
+              "location": "SearchAnyCarSteps.the_search_result_for_is_displayed(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 420301600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "all the cars displayed are \"Audi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Audi",
+                  "offset": 28
+                }
+              ],
+              "location": "SearchAnyCarSteps.all_the_cars_displayed_are(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3639757016,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutoTraderHooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Search for Audi cars on homepage search box",
+        "description": "",
+        "id": "search-any-car;search-for-audi-cars-on-homepage-search-box;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 5629158795,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutoTraderHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6240430999,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to Autotrader homepage",
+            "match": {
+              "location": "SearchSteps.i_navigate_to_Autotrader_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 64200591,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "autotrader logo is displayed",
+            "match": {
+              "location": "SearchSteps.autotrader_logo_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142186852,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter postcode as \"M40 2EB\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "M40 2EB",
+                  "offset": 21
+                }
+              ],
+              "location": "SearchAnyCarSteps.i_enter_postcode_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 595080646,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "a \"Within 10 miles\" is selected from postcode",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Within 10 miles",
+                  "offset": 3
+                }
+              ],
+              "location": "SearchAnyCarSteps.a_is_selected_from_postcode(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 362172939,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "\"BMW\" is selected from make dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BMW",
+                  "offset": 1
+                }
+              ],
+              "location": "SearchAnyCarSteps.is_selected_from_make_dropdown(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 323497033,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "\"1 SERIES\" is selected from model dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1 SERIES",
+                  "offset": 1
+                }
+              ],
+              "location": "SearchAnyCarSteps.is_selected_from_model_dropdown(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 319056272,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "\"5500\" is selected from min price dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5500",
+                  "offset": 1
+                }
+              ],
+              "location": "SearchAnyCarSteps.is_selected_from_min_price_dropdown(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 340068349,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "\"16000\" is selected from max price dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "16000",
+                  "offset": 1
+                }
+              ],
+              "location": "SearchAnyCarSteps.is_selected_from_max_price_dropdown(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15746752679,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on search button",
+            "match": {
+              "location": "SearchSteps.i_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31614860,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the search result for \"BMW\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BMW",
+                  "offset": 23
+                }
+              ],
+              "location": "SearchAnyCarSteps.the_search_result_for_is_displayed(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 581618091,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "all the cars displayed are \"BMW\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BMW",
+                  "offset": 28
+                }
+              ],
+              "location": "SearchAnyCarSteps.all_the_cars_displayed_are(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Search any Car",
+    "description": "In order to view different cars for sale\r\nAs an autotrader customer\r\nI want the ability to search for a car of my choice",
+    "id": "search-any-car",
+    "keyword": "Feature",
+    "uri": "features/SearchAnyCar.feature"
+  },
+  {
+    "line": 1,
+    "name": "Search Cars",
+    "description": "In order to view different cars for sale\r\nAs an autotrader customer\r\nI want the ability to search for a car of my choice",
+    "id": "search-cars",
+    "keyword": "Feature",
+    "uri": "features/SearchForACar.feature"
+  }
+]
