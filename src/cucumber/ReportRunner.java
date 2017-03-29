@@ -28,7 +28,7 @@ public static void setup() {
 	
 	String dateNow = new SimpleDateFormat("ddMMyy").format(new GregorianCalendar().getTime());
 	String timeNow = new SimpleDateFormat("hhmmss").format(new GregorianCalendar().getTime());
-	//the file name will show dateReportTime and it will be stored in the director as shown below
+	//the file name will show dateReportTime and it will be stored in the directory as shown below
 	String fileName = String.format("C:/seleniumTraining/AutoTrader/report/%s/report_%s.html", dateNow, timeNow);
 	
 	//initiate the extent report and generate the output in the output/Run<unique timestamp>/report.html file by default

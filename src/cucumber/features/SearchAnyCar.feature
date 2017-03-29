@@ -18,7 +18,7 @@ Scenario Outline:	Search for Audi cars on homepage search box
 Scenarios:			
 			|postcode |distance 	   |carMake|model    |minPrice |maxPrice |
 			|OL9 8LE  |Within 30 miles |Audi   |A3       |5500     |22500    |
-			|M40 2EB  |Within 10 miles |BMW    |1 SERIES |5500     |16000    |
+			#|M40 2EB  |Within 10 miles |BMW    |1 SERIES |5500     |16000    |
 			
 			#This is how to comment out statements in the feature file
 @sanityCheck 

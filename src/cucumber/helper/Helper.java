@@ -22,7 +22,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class Helper 
 {
-	private static WebDriver driver;
+	public static WebDriver driver;
 	private static Select select;
 	private static Actions action;
 	
